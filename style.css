@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/wheather.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position:relative; 
+}
+.background-container{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    height: 87vh;
+    width: 60vh;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+}
+.search-bar{
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 5px;
+    z-index: -1;
+    margin-top: 20px;
+    padding-bottom: 3px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: roboto;
+   background-image: url("./images/background.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.country{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: roboto;
+   background-image: url("./images/background.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.wheather-icon{
+    height: 100px;
+    width: 100px;
+}
+.wheather-type{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: roboto;
+   background-image:url("/images/gradient2.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.temperature{
+    color: white;
+    font-weight: 600;
+    font-family: roboto;
+    font-size: 25px;
+}
+span{
+    color: white;
+    opacity: 0.5;
+}
+span:hover{
+    color:white;
+    opacity: 1;
+}
+.humidity{
+   padding-top: 5px;
+   border-color:aqua;
+    border-style:double;
+   
+    width: 100px;
+    height: 100px;
+}
+.humidity-image{
+    height: 50px;
+}
+.humidity-text{
+    font-size: small;
+    font-weight: 500;
+    color:white;
+}
+
+.wind-speed{
+ border-color:aqua;
+ padding-top: 5px;
+   border-style:double;
+  margin-left: 10px;
+   width: 100px;
+   height: 100px;
+}
+.wind-image{
+    height: 50px;
+}
+.pressure-image{
+    height: 50px;
+}
+.pressure-text{
+    font-size: small;
+    font-weight: 500;
+    color:white;
+}
+.wind-text{
+    font-size: small;
+    font-weight: 500;
+    color:white;
+}
+button{
+    font-size: 12px !important;
+    color: black !important;
+    font-weight: 500 !important;
+    background-color: transparent !important;
+}
+button:hover{
+    background-image: linear-gradient(violet,skyblue);
+}
