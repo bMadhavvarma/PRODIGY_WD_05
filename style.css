@@ -74,14 +74,6 @@ body{
     font-family: roboto;
     font-size: 25px;
 }
-span{
-    color: white;
-    opacity: 0.5;
-}
-span:hover{
-    color:white;
-    opacity: 1;
-}
 .humidity{
    padding-top: 5px;
    border-color:aqua;
@@ -95,7 +87,7 @@ span:hover{
 }
 .humidity-text{
     font-size: small;
-    font-weight: 600;
+    font-weight: 500;
     color:white;
 }
 
@@ -115,12 +107,12 @@ span:hover{
 }
 .pressure-text{
     font-size: small;
-    font-weight: 600;
+    font-weight: 500;
     color:white;
 }
 .wind-text{
     font-size: small;
-    font-weight: 600;
+    font-weight: 500;
     color:white;
 }
 button{
