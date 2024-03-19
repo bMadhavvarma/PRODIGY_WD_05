@@ -12,8 +12,9 @@ body{
 .background-container{
     background-color:transparent;
     backdrop-filter: blur(10px);
+    background-size: contain;
     height: 87vh;
-    width: 65vh;
+    width: 20rem;
     position:absolute;
     align-items: center;
     justify-content: center;
@@ -63,7 +64,7 @@ body{
     font-weight: 700;
     font-family: roboto;
    background-image:url("/images/gradient2.jpg");
-    background-size: cover;
+    background-size:cover;
     padding-top: 10px;
     background-clip: text;
     -webkit-background-clip: text;
@@ -87,9 +88,8 @@ span:hover{
    padding-top: 5px;
    border-color:aqua;
     border-style:double;
-   
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 7rem;
 }
 .humidity-image{
     height: 50px;
@@ -103,10 +103,10 @@ span:hover{
 .wind-speed{
  border-color:aqua;
  padding-top: 5px;
-   border-style:double;
+ border-style:double;
   margin-left: 10px;
-   width: 100px;
-   height: 100px;
+   width: 10em;
+   height: 7rem;
 }
 .wind-image{
     height: 50px;
