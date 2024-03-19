@@ -13,7 +13,7 @@ body{
     background-color:transparent;
     backdrop-filter: blur(10px);
     height: 87vh;
-    width: 60vh;
+    width: 65vh;
     position:absolute;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,7 @@ body{
 .search-bar{
     border-radius: 30px;
     border-width: 0px;
+    width: 220px;
     padding-left: 5px;
     z-index: -1;
     margin-top: 20px;
@@ -74,6 +75,14 @@ body{
     font-family: roboto;
     font-size: 25px;
 }
+span{
+    color: white;
+    opacity: 0.5;
+}
+span:hover{
+    color:white;
+    opacity: 1;
+}
 .humidity{
    padding-top: 5px;
    border-color:aqua;
@@ -107,7 +116,7 @@ body{
 }
 .pressure-text{
     font-size: small;
-    font-weight: 500;
+    font-weight: 600;
     color:white;
 }
 .wind-text{
