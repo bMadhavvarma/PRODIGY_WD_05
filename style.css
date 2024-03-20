@@ -63,7 +63,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     font-family: roboto;
-   background-image:url("/images/gradient2.jpg");
+   background:background: linear-gradient(45deg, red, blue);
     background-size:cover;
     padding-top: 10px;
     background-clip: text;
