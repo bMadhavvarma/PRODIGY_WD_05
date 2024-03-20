@@ -10,7 +10,7 @@ async function checkWeather(name) {
   document.querySelector(".country").innerHTML= data.sys.country;
   document.querySelector(".temperature").innerHTML = data.main.temp + "°C";
   document.querySelector(".humidity-text").innerHTML = "Humidity: " + data.main.humidity + "%";
-  document.querySelector(".pressure-text").innerHTML = data.main.pressure;
+  document.querySelector(".pressure-text").innerHTML = "Pressure:"+data.main.pressure;
   document.querySelector(".wind-text").innerHTML = "Wind: " + data.wind.speed + "km/h";
   document.querySelector(".wheather-type").innerHTML= data.weather[0].description;
   const weatherIcon = document.querySelector(".wheather-icon");
